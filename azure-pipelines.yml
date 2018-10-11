@@ -10,4 +10,4 @@ variables:
 steps:
 - script: |
     dotnet pack
-    dotnet nuget push nupkg\*.nupkg -s https://nuget.org -k $(nugetKey)
+    dotnet nuget push nupkg/*.nupkg -s https://nuget.org -k $(nugetKey)
