@@ -8,6 +8,7 @@
     <ToolCommandName>hn</ToolCommandName>
     <PackageOutputPath>./nupkg</PackageOutputPath>
     <LangVersion>7.1</LangVersion>
+    <PackageVersion>1.0.1</PackageVersion>
   </PropertyGroup>
 
   <ItemGroup>
