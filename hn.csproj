@@ -10,6 +10,15 @@
     <LangVersion>7.1</LangVersion>
     <VersionPrefix>1.0.2</VersionPrefix>
     <NoWarn>NU5105</NoWarn>
+
+    <Title>Hacker News .net core client</Title>
+    <Authors>evolvedlight</Authors>
+    <Description>This is a .Net global tool that shows the top Hacker News articles</Description>
+    <Copyright>Stephen Brown 2018</Copyright>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/evolvedlight/dotnet-hn/master/LICENSE.md</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/evolvedlight/dotnet-hn</PackageProjectUrl>
+    
   </PropertyGroup>
 
   <ItemGroup>
