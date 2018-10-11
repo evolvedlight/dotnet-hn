@@ -9,5 +9,5 @@ variables:
 
 steps:
 - script: |
-    dotnet pack --version-suffix 2 $(Build.BuildNumber)
+    dotnet pack --version-suffix $(Build.BuildNumber)
     dotnet nuget push nupkg/*.nupkg -s https://nuget.org -k $(nugetKey)
